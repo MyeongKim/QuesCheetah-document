@@ -3,7 +3,8 @@
 * [QuesCheetah](README.md)
 * [Introduction](Introduction/README.md)
 * [Question](Question/README.md)
-   * [status](Question/status.md)
+   * [Status](Question/status.md)
+   * [Create](Question/create.md)
 * [Answer](Answer/README.md)
 * [Useranswer](Useranswer/README.md)
 
