@@ -4,9 +4,10 @@
 * [Introduction](Introduction/README.md)
 * [Question](Question/README.md)
     * [Status](Question/status.md)
-    * [Create](Question/create.md)
     * [Get](Question/get.md)
+    * [Create](Question/create.md)
     * [Single set create](Question/create_single_question.md)
+    * [Delete](Question/delete.md)
 * [Multiple Question](Multiquestion/README.md)
     * [Create](Multiquestion/create.md) 
 * 
