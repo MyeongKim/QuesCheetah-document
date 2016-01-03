@@ -11,9 +11,9 @@ The response will be always JSON object. It depends on the context.
 
 ###**Error response**
 
-``` 
+```javascript
     {
-        'error'      : True,
-        'description': desc     // this data depends on the context.
+	    "error": boolean,
+	    "description": string // this data depends on the context.
     }
 ```
