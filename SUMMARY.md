@@ -11,6 +11,7 @@
     * [Delete single set](Question/delete_question_set.md)
 * [Multiple Question](Multiquestion/README.md)
     * [Create](Multiquestion/create.md) 
+    * [Delete multiple question set](Multiquestion/delete_multi_question_set.md)
 * [Answer](Answer/README.md)
     * [Create](Answer/create.md)
     * [Get](Answer/get.md)
