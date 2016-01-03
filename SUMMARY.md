@@ -6,6 +6,8 @@
    * [Status](Question/status.md)
    * [Create](Question/create.md)
    * [Get](Question/get.md)
+* [Multiple Question](Multiquestion/README.md)
+* 
 * [Answer](Answer/README.md)
     * [Create](Answer/create.md)
     * [Get](Answer/get.md)
