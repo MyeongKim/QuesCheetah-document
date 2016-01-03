@@ -18,4 +18,5 @@
     * [Delete](Answer/delete.md)
 * [Useranswer](Useranswer/README.md)
     * [Create](Useranswer/create.md) 
+    * [Delete](Useranswer/delete.md)
 
