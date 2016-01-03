@@ -2,8 +2,8 @@
 	"plugins": ["fontsettings"],
 	"pluginsConfig": {
 		"fontSettings": {
-			"theme": 'sepia',
-			"family": 'sans',
+			"theme": "sepia",
+			"family": "sans",
 			"size": 2
 		}
 	}
