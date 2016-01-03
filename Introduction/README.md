@@ -2,7 +2,9 @@
 
 All request to QuesCheetah are processed with REST API.
 
-You send the request data in JSON format. you should set ```content-type: application/json``` in the request header.
+You send the request data in JSON format.
+
+you should set ```content-type: application/json``` in the request header.
 
 The response will be always JSON object. It depends on the context.
 
