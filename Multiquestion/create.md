@@ -3,7 +3,10 @@
 
 POST - (http://quescheetah.com/v1/multiple/create)
 
-Create many question. These questions are grouped together.
+Create many question.
+
+These questions are grouped together.
+
 The answers within each question are created also.
 
 **request**
