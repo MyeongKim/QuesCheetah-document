@@ -3,7 +3,7 @@
 }
 
 {
-	"pluginsConfig": {
+    "pluginsConfig": {
 		"fontSettings": {
 			"theme": "night",
 			"family": "sans",
