@@ -6,11 +6,11 @@
     * [Status](Question/status.md)
     * [Get](Question/get.md)
     * [Create](Question/create.md)
-    * [Single set create](Question/create_single_question.md)
+    * [Create single set](Question/create_single_question.md)
     * [Delete](Question/delete.md)
+    * [Delete single set](Question/delete_question_set.md)
 * [Multiple Question](Multiquestion/README.md)
     * [Create](Multiquestion/create.md) 
-* 
 * [Answer](Answer/README.md)
     * [Create](Answer/create.md)
     * [Get](Answer/get.md)
