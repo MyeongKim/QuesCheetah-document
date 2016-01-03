@@ -16,7 +16,7 @@ Change question state to private.
 ```
 
 **return**
-``` 
+```javascript 
     {}
 ```
     
@@ -38,7 +38,7 @@ Change question state to public.
 ```
 
 **return**
-``` 
+```javascript 
     {}
 ```
     
@@ -50,19 +50,19 @@ POST - (http://quescheetah.com/v1/question/url/list)
 Get authenticated urls of the question.
 
 **request**
-``` 
+```javascript 
     {
-        'api_key'       : "Your api key",
-        'question_title': "Your question title",
-        'question_id'   : "Your question id"    // Either question_title and question_id is required.
+        "api_key"       : "Your api key",
+        "question_title": "Your question title",
+        "question_id"   : "Your question id"    // Either question_title and question_id is required.
     }
 
 ```
 
 **return**
-``` 
+```javascript 
     {
-        'urls': {0:{"https://naver.com"},
+        "urls": {0:{"https://naver.com"},
                  1:{"https://google.com"},
                  2:{"https://daum.net"},
                  ...
@@ -78,20 +78,20 @@ POST - (http://quescheetah.com/v1/question/url/add)
 Add an authenticated url.
 
 **request**
-``` 
+```javascript 
     {
-        'api_key'       : "Your api key",
-        'question_title': "Your question title",
-        'question_id'   : "Your question id",    // Either question_title and question_id is required.
-        'url'           : "New url"
+        "api_key"       : "Your api key",
+        "question_title": "Your question title",
+        "question_id"   : "Your question id",    // Either question_title and question_id is required.
+        "url"           : "New url"
     }
 
 ```
 
 **return**
-``` 
+```javascript 
     {
-        'urls': {0:{"https://naver.com"},
+        "urls": {0:{"https://naver.com"},
                  1:{"https://google.com"},
                  2:{"https://daum.net"},
                  ...
