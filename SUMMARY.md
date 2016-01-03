@@ -9,6 +9,7 @@
 * [Answer](Answer/README.md)
     * [Create](Answer/create.md)
     * [Get](Answer/get.md)
+    * [Simple view answer](Answer/simple_view_answer.md)
 * [Useranswer](Useranswer/README.md)
     * [Create](Useranswer/create.md) 
 
