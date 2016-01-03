@@ -6,11 +6,11 @@ POST - (http://quescheetah.com/v1/question/private)
 Change question state to private.
 
 **request**
-``` 
+```javascript 
     {
-        'api_key'       : "Your api key",
-        'question_title': "Your question title",
-        'question_id'   : "Your question id"    // Either question_title and question_id is required.
+        "api_key"       : "Your api key",
+        "question_title": "Your question title",
+        "question_id"   : "Your question id"    // Either question_title and question_id is required.
     }
 
 ```
@@ -28,11 +28,11 @@ POST - (http://quescheetah.com/v1/question/public)
 Change question state to public.
 
 **request**
-``` 
+```javascript 
     {
-        'api_key'       : "Your api key",
-        'question_title': "Your question title",
-        'question_id'   : "Your question id"    // Either question_title and question_id is required.
+        "api_key"       : "Your api key",
+        "question_title": "Your question title",
+        "question_id"   : "Your question id"    // Either question_title and question_id is required.
     }
 
 ```
