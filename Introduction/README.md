@@ -13,7 +13,7 @@ The response will be always JSON object. It depends on the context.
 
 ```javascript
     {
-	    "error": boolean,
-	    "description": string // this data depends on the context.
+	    "error": True,
+	    "description": "Error description" // this data depends on the context.
     }
 ```
