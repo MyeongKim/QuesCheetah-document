@@ -14,15 +14,14 @@ Make a new useranswer.
         "update_num"    : "1",                    // The answer_num of answer
         "unique_user"   : "Unique Id"            // For the distiction between useranswers.
     }
-
 ```
 
 **return**
 ```javascript 
     {
-        "useranswer":  {
-                            "update_num" : "1",
-                            "unique_user": "Unique Id"
-                        }       
+        "useranswer": {
+            "update_num": "1",
+            "unique_user": "Unique Id"
+        }
     }
 ```

@@ -13,10 +13,12 @@ Delete one answer. Not including related data.
         "question_id"   : "Your question id",    // Either question_title and question_id is required.
         "answer_num"    : "Your answer number"
     }
-
 ```
 
 **return**
 ```javascript
-    {}
+    {
+        "result": "success",
+        "description": "Delete description"
+    }
 ```

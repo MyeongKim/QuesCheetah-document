@@ -16,7 +16,6 @@ Create one question. Not any related answers.
         "is_editable"       : "True",               // optional
         "is_private"        : "True",               // optional
     }
-
 ```
 
 **return**

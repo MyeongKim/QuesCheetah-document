@@ -14,10 +14,12 @@ Delete one useranswer.
         "answer_num"    : "Your answer number",
         "unique_user"   : "Unique Id"
     }
-
 ```
 
 **return**
 ```javascript
-    {}
+    {
+        "result": "success",
+        "description": "Delete description"
+    }
 ```

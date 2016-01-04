@@ -12,10 +12,12 @@ Delete one question with all related answers, useranswers.
         "question_title": "Your question title",
         "question_id"   : "Your question id",    // Either question_title and question_id is required.
     }
-
 ```
 
 **return**
 ```javascript
-    {}
+    {
+        "result": "success",
+        "description": "Delete description"
+    }
 ```

@@ -11,10 +11,12 @@ Delete one group with all related questions, answers, useranswers.
         "api_key"       : "Your api key",
         "group_name"    : "Your group name"
     }
-
 ```
 
 **return**
 ```javascript
-    {}
+    {
+        "result": "success",
+        "description": "Delete description"
+    }
 ```

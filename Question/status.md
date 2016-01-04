@@ -12,12 +12,14 @@ Change question state to private.
         "question_title": "Your question title",
         "question_id"   : "Your question id"    // Either question_title and question_id is required.
     }
-
 ```
 
 **return**
 ```javascript 
-    {}
+    {
+        "result": "success",
+        "description": "Update description"
+    }
 ```
     
 ###**to_public**
@@ -34,12 +36,14 @@ Change question state to public.
         "question_title": "Your question title",
         "question_id"   : "Your question id"    // Either question_title and question_id is required.
     }
-
 ```
 
 **return**
 ```javascript 
-    {}
+    {
+        "result": "success",
+        "description": "Update description"
+    }
 ```
     
 ###**get_url_list**
@@ -56,17 +60,23 @@ Get authenticated urls of the question.
         "question_title": "Your question title",
         "question_id"   : "Your question id"    // Either question_title and question_id is required.
     }
-
 ```
 
 **return**
 ```javascript 
     {
-        "urls": {0:{"https://naver.com"},
-                 1:{"https://google.com"},
-                 2:{"https://daum.net"},
-                 ...
-                 }
+        "urls": [
+            0: {
+                "https://naver.com"
+            },
+            1: {
+                "https://google.com"
+            },
+            2: {
+                "https://daum.net"
+            },
+            ...
+        ]
     }
 ```
     
@@ -85,16 +95,22 @@ Add an authenticated url.
         "question_id"   : "Your question id",    // Either question_title and question_id is required.
         "url"           : "New url"
     }
-
 ```
 
 **return**
 ```javascript 
     {
-        "urls": {0:{"https://naver.com"},
-                 1:{"https://google.com"},
-                 2:{"https://daum.net"},
-                 ...
-                 }
+        "urls": [
+            0: {
+                "https://naver.com"
+            },
+            1: {
+                "https://google.com"
+            },
+            2: {
+                "https://daum.net"
+            },
+            ...
+        ]
     }
 ```
