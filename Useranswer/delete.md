@@ -20,7 +20,7 @@ Delete one useranswer.
 | api_key | string | The user's own api_key. |
 | question_title | string | Title of this question. |
 | question_id  | integer  | Id of this question. |
-| answer_num | integer | answer_num value of selected answer |
+| answer_num | integer | Be criterion of descending order. Lower number will go first.|
 | unique_user | string | unique value that will discriminate between users |
 
 
