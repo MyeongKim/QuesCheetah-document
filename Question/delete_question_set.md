@@ -14,6 +14,12 @@ Delete one question with all related answers, useranswers.
     }
 ```
 
+| Arguments | Value | Description |
+| --        | --    |
+| api_key | string| The user's own api_key. |
+| question_title | string | Title of this question. |
+| question_id  | integer  | Id of this question. |
+
 **return**
 ```javascript
     {
