@@ -15,6 +15,12 @@ Delete one answer. Not including related data.
     }
 ```
 
+| Arguments | Value | Description |
+| --        | --    |
+| api_key | string | The user's own api_key. |
+| question_title | string | Title of this question. |
+| question_id  | integer  | Id of this question. |
+
 **return**
 ```javascript
     {
