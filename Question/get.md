@@ -13,6 +13,12 @@ Get question data. Not related answers.
         "question_id"   : "Your question id",    // Either question_title and question_id is required.
     }
 ```
+| Arguments | Value | Description |
+| --        | --    |
+| api_key | string| The user's own api_key |
+| question_title | string | Title of this question |
+| question_id  | integer  | Id of this question |
+
 
 **return**
 ```javascript 
