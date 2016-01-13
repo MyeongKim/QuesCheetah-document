@@ -16,9 +16,9 @@ Change question state to private.
 
 | Arguments | Value | Description |
 | --        | --    |
-| api_key | string| The user's own api_key |
-| question_title | string | Title of this question |
-| question_id  | integer  | Id of this question |
+| api_key | string| The user's own api_key. |
+| question_title | string | Title of this question. |
+| question_id  | integer  | Id of this question. |
 
 
 **return**
@@ -47,9 +47,9 @@ Change question state to public.
 
 | Arguments | Value | Description |
 | --        | --    |
-| api_key | string| The user's own api_key |
-| question_title | string | Title of this question |
-| question_id  | integer  | Id of this question |
+| api_key | string| The user's own api_key. |
+| question_title | string | Title of this question. |
+| question_id  | integer  | Id of this question. |
 
 **return**
 ```javascript 
@@ -77,9 +77,9 @@ Get authenticated urls of the question.
 
 | Arguments | Value | Description |
 | --        | --    |
-| api_key | string| The user's own api_key |
-| question_title | string | Title of this question |
-| question_id  | integer  | Id of this question |
+| api_key | string| The user's own api_key. |
+| question_title | string | Title of this question. |
+| question_id  | integer  | Id of this question. |
 
 **return**
 ```javascript 
@@ -118,10 +118,10 @@ Add an authenticated url.
 
 | Arguments | Value | Description |
 | --        | --    |
-| api_key | string| The user's own api_key |
-| question_title | string | Title of this question |
-| question_id  | integer  | Id of this question |
-| url | string | New url that user want to add |
+| api_key | string| The user's own api_key. |
+| question_title | string | Title of this question. |
+| question_id  | integer  | Id of this question. |
+| url | string | New url that user want to add. |
 
 **return**
 ```javascript 
