@@ -63,6 +63,19 @@ The answers within each question are created also.
         ]
     }
 ```
+| Arguments | Value | Description |
+| --        | --    |
+| api_key | string | The user's own api_key. |
+| group_name | string | representative title of all questions.| 
+| question_title | string | Title of this question. |
+| question_text  | string  | Question text to ask. |
+| start_dt | long | Activation time of this question. Default is current time.|
+| end_dt | long | End time of this question. Default is 30 days from start date.|
+| is_editable | string | Determine whether user can change the pre-answered answer.|
+| is_private | string | Show question to added urls only. |
+| answer_num | integer | Be criterion of descending order. Lower number will go first.|
+| answer_text | string | Giving texts to choose. |
+
 
 **return**
 ```javascript
