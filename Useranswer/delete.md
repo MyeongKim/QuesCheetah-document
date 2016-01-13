@@ -15,6 +15,14 @@ Delete one useranswer.
         "unique_user"   : "Unique Id"
     }
 ```
+| Arguments | Value | Description |
+| --        | --    |
+| api_key | string | The user's own api_key. |
+| question_title | string | Title of this question. |
+| question_id  | integer  | Id of this question. |
+| answer_num | integer | answer_num value of selected answer |
+| unique_user | string | unique value that will discriminate between users |
+
 
 **return**
 ```javascript
