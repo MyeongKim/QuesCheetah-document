@@ -20,6 +20,7 @@ Delete one answer. Not including related data.
 | api_key | string | The user's own api_key. |
 | question_title | string | Title of this question. |
 | question_id  | integer  | Id of this question. |
+| answer_num | integer | Be criterion of descending order. Lower number will go first.|
 
 **return**
 ```javascript
