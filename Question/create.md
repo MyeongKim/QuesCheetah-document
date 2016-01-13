@@ -20,11 +20,11 @@ Create one question. Not any related answers.
 
 | Arguments | Value | Description |
 | --        | --    |
-| api_key | string| The user's own api_key |
-| question_title | string | Title of this question |
-| question_text  | string  | Question text to ask |
+| api_key | string| The user's own api_key. |
+| question_title | string | Title of this question. |
+| question_text  | string  | Question text to ask. |
 | start_dt | long | Activation time of this question. Default is current time.|
-| end_dt | long | End time of this question. Default is 30 days from start date|
+| end_dt | long | End time of this question. Default is 30 days from start date.|
 
 
 
