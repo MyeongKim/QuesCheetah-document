@@ -13,53 +13,57 @@ The answers within each question are created also.
 ```javascript
     {
         "group_name": "This Group name",
-        "questions": [
-            1: {
+        "questions": {
+            "1": {
                 "question_title": "Your question title 1",
                 "question_text": "Your question text 1",
                 "start_dt": "", //optional
                 "end_dt": "", //optional
-                "is_editable": "True", // optional
-                "is_private": "True" // optional
+                "is_editable": false, // optional
+                "is_private": false // optional
             }
-            2: {
+            "2": {
                 "question_title": "Your question title 2",
                 "question_text": "Your question text 2",
                 "start_dt": "", //optional
                 "end_dt": "", //optional
-                "is_editable": "True", // optional
-                "is_private": "True" // optional
+                "is_editable": false, // optional
+                "is_private": false // optional
             }
             ...
-        ],
-        "answers": [
+        },
+        "answers": {
             // Answers for the first question.
-            1: {
+            "1": {
                 // First answer of the first question.
-                1: {
-                    "answer_num": "1",
+                "1": {
+                    "question_num": 1,
                     "answer_text": "Answer 1"
+                    "answer_num": 1,
                 },
-                2: {
-                    "answer_num": "2",
+                "2": {
+                    "question_num": 1,
                     "answer_text": "Answer 2"
+                    "answer_num": 2,
                 },
                 ...
             },
             // Answers for the second question.
-            2: {
+            "2": {
                 // First answer of the second question.
-                1: {
-                    "answer_num": "1",
+                "1": {
+                    "question_num": 2,
                     "answer_text": "Answer 1"
+                    "answer_num": 1,
                 },
-                2: {
-                    "answer_num": "2",
+                "2": {
+                    "question_num": 2,
                     "answer_text": "Answer 2"
+                    "answer_num": 2,
                 },
                 ...
             },
-        ]
+        }
     }
 ```
 | Arguments | Value | Description |
@@ -79,19 +83,27 @@ The answers within each question are created also.
 **return**
 ```javascript
     {
-        "multiquestion": {
-            "group_name": "Your group name"
-        },
         "questions": [
-            0: {
-                "question_title": "Your question title",
-                "question_text": "Your question text"
+            {
+                "id": 1,
+                "is_editable": false,
+                "title": "title 1",
+                "start_dt": "2016-02-07T14:34:44.873",
+                "is_private": false,
+                "end_dt": "2016-03-08T14:34:44.873",
+                "text": "text 1"
             },
-            1: {
-                "question_title": "Your question title",
-                "question_text": "Your question text"
+            {
+                "id": 2,
+                "is_editable": false,
+                "title": "title 2",
+                "start_dt": "2016-02-07T14:34:44.880",
+                "is_private": false,
+                "end_dt": "2016-03-08T14:34:44.880",
+                "text": "text 2"
             }
-            ...
-        ]
+        ],
+        "group_id": 5,
+        "group_name": "myname"
     }
 ```
