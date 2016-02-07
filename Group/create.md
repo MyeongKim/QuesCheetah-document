@@ -1,15 +1,17 @@
-###**create_single_question**
+###**create_question_group**
 
 
-POST - (http://quescheetah.com/v1/single/create)
+POST - (http://quescheetah.com/v1/groups)
 
-Create single question.
-The answers of the question are created also.
+Create many question.
+
+These questions are grouped together.
+
+The answers within each question are created also.
 
 **request**
 ```javascript
     {
-        "api_key": "Your api key",
         "group_name": "This Group name",
         "questions": [
             1: {
@@ -20,10 +22,33 @@ The answers of the question are created also.
                 "is_editable": "True", // optional
                 "is_private": "True" // optional
             }
+            2: {
+                "question_title": "Your question title 2",
+                "question_text": "Your question text 2",
+                "start_dt": "", //optional
+                "end_dt": "", //optional
+                "is_editable": "True", // optional
+                "is_private": "True" // optional
+            }
+            ...
         ],
         "answers": [
+            // Answers for the first question.
             1: {
                 // First answer of the first question.
+                1: {
+                    "answer_num": "1",
+                    "answer_text": "Answer 1"
+                },
+                2: {
+                    "answer_num": "2",
+                    "answer_text": "Answer 2"
+                },
+                ...
+            },
+            // Answers for the second question.
+            2: {
+                // First answer of the second question.
                 1: {
                     "answer_num": "1",
                     "answer_text": "Answer 1"
@@ -39,7 +64,8 @@ The answers of the question are created also.
 ```
 | Arguments | Value | Description |
 | --        | --    |
-| api_key | string| The user's own api_key. |
+| api_key | string | The user's own api_key. |
+| group_name | string | representative title of all questions.| 
 | question_title | string | Title of this question. |
 | question_text  | string  | Question text to ask. |
 | start_dt | long | Activation time of this question. Default is current time.|
@@ -50,34 +76,22 @@ The answers of the question are created also.
 | answer_text | string | Giving texts to choose. |
 
 
-
 **return**
 ```javascript
     {
-        "api_key": "Your api key",
-        "question_title": "Your question title",
-        "question_text": "Your question text",
-        "start_dt": "",
-        "end_dt": "",
-        "is_editable": "True",
-        "is_private": "True",
-        "answers": [
+        "multiquestion": {
+            "group_name": "Your group name"
+        },
+        "questions": [
+            0: {
+                "question_title": "Your question title",
+                "question_text": "Your question text"
+            },
             1: {
-                "answer_num": "1",
-                "answer_text": "answer1"
-            },
-            2: {
-                "answer_num": "2",
-                "answer_text": "answer2"
-            },
-            3: {
-                "answer_num": "3",
-                "answer_text": "answer3"
-            },
-            4: {
-                "answer_num": "4",
-                "answer_text": "answer4"
+                "question_title": "Your question title",
+                "question_text": "Your question text"
             }
+            ...
         ]
     }
 ```

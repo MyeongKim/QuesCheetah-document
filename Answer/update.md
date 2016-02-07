@@ -1,10 +1,19 @@
-###**get_answer_list**
+###**update_answer**
 
 
-GET - (http://quescheetah.com/v1/questions/{questionId}/answers)
+PUT - (http://quescheetah.com/v1/questions/{questionId}/answers/{answerNum})
 
-Get all answer data related with one question.
+Update a answer_text of one answer.
 
+**request**
+```javascript
+    {
+        "answer_text": "New answer_text"
+    }
+```
+| Arguments | Value | Description |
+| --        | --    |
+| answer_text | string | New texts to choose. |
 
 **return**
 ```javascript 
@@ -25,25 +34,6 @@ Get all answer data related with one question.
             4: {
                 "answer_num": "4",
                 "answer_text": "answer4"
-            }
-        ]
-    }
-```
-
-###**get_one_answer**
-
-
-GET - (http://quescheetah.com/v1/questions/{questionId}/answers/{answerNum})
-
-Get a answer instance that answerNum is answer_num of this data.
-
-**return**
-```javascript 
-    {
-        "answers": [
-            1: {
-                "answer_num": "1",
-                "answer_text": "answer1"
             }
         ]
     }

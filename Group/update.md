@@ -1,18 +1,17 @@
-###**create_multiple_question**
+###**update_question_group**
 
 
-POST - (http://quescheetah.com/v1/multiple/create)
+PUT - (http://quescheetah.com/v1/groups/{groupId})
 
-Create many question.
+Update this group data.
 
-These questions are grouped together.
+You can update all the question data and answer data that is included from this group.
 
-The answers within each question are created also.
+Only update the data passed by request. (On develop)
 
 **request**
 ```javascript
     {
-        "api_key": "Your api key",
         "group_name": "This Group name",
         "questions": [
             1: {

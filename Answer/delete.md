@@ -1,31 +1,15 @@
 ###**delete_answer**
 
 
-POST - (http://quescheetah.com/v1/answer/delete)
+DELETE - (http://quescheetah.com/v1/questions/{questionId}/answers/{answerNum})
 
-Delete one answer. Not including related data.
+Delete a answer instance that answerNum is answer_num of this data.
 
-**request**
-```javascript
-    {
-        "api_key"       : "Your api key",
-        "question_title": "Your question title",
-        "question_id"   : "Your question id",    // Either question_title and question_id is required.
-        "answer_num"    : "Your answer number"
-    }
-```
-
-| Arguments | Value | Description |
-| --        | --    |
-| api_key | string | The user's own api_key. |
-| question_title | string | Title of this question. |
-| question_id  | integer  | Id of this question. |
-| answer_num | integer | Be criterion of descending order. Lower number will go first.|
 
 **return**
 ```javascript
     {
         "result": "success",
-        "description": "Delete description"
+        "description": "Deleted this answer."
     }
 ```
