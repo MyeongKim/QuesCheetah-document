@@ -9,24 +9,18 @@ Get all answer data related with one question.
 **return**
 ```javascript 
     {
-        "answers": [
-            1: {
-                "answer_num": "1",
-                "answer_text": "answer1"
+        "answers": {
+            "1": {
+                "id": 38,           // id of this answer instance
+                "answer_count": 0,  // How many users voted to this answer.
+                "answer_text": "my answer text 1"
             },
-            2: {
-                "answer_num": "2",
-                "answer_text": "answer2"
-            },
-            3: {
-                "answer_num": "3",
-                "answer_text": "answer3"
-            },
-            4: {
-                "answer_num": "4",
-                "answer_text": "answer4"
+            "2": {
+                "id": 37,           // id of this answer instance
+                "answer_count": 0,  // How many users voted to this answer.
+                "answer_text": "my answer text 2"
             }
-        ]
+        }
     }
 ```
 
@@ -40,11 +34,12 @@ Get a answer instance that answerNum is answer_num of this data.
 **return**
 ```javascript 
     {
-        "answers": [
-            1: {
-                "answer_num": "1",
-                "answer_text": "answer1"
+        "answers": {
+            "1": {
+                "id": 38,           // id of this answer instance
+                "answer_count": 0,  // How many users voted to this answer.
+                "answer_text": "my answer text 1"
             }
-        ]
+        }
     }
 ```

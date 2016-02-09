@@ -1,14 +1,21 @@
 ###**update_answer**
 
 
-PUT - (http://quescheetah.com/v1/questions/{questionId}/answers/{answerNum})
+PUT - (http://quescheetah.com/v1/questions/{questionId}/answers)
 
-Update a answer_text of one answer.
+Update answer_text property at once.
 
 **request**
 ```javascript
     {
-        "answer_text": "New answer_text"
+        "answers": {
+            "1": {
+                "answer_text": "my new answer text 1"
+            },
+            "2": {
+                "answer_text": "my new answer text 2"
+            }
+        }
     }
 ```
 | Arguments | Value | Description |
@@ -18,23 +25,17 @@ Update a answer_text of one answer.
 **return**
 ```javascript 
     {
-        "answers": [
-            1: {
-                "answer_num": "1",
-                "answer_text": "answer1"
+        "answers": {
+            "1": {
+                "id": 38,           // id of this answer instance
+                "answer_count": 0,  // How many users voted to this answer.
+                "answer_text": "my new answer text 1"
             },
-            2: {
-                "answer_num": "2",
-                "answer_text": "answer2"
-            },
-            3: {
-                "answer_num": "3",
-                "answer_text": "answer3"
-            },
-            4: {
-                "answer_num": "4",
-                "answer_text": "answer4"
+            "2": {
+                "id": 37,           // id of this answer instance
+                "answer_count": 0,  // How many users voted to this answer.
+                "answer_text": "my new answer text 2"
             }
-        ]
+        }
     }
 ```

@@ -8,7 +8,9 @@ Make a new useranswer.
 **request**
 ```javascript 
     {
-        "unique_user"   : "Unique Id"            // For the distinction between useranswers.
+        "useranswer": {
+            "unique_user"   : "Unique Id"            // For the distinction between useranswers.
+        }
     }
 ```
 
@@ -20,9 +22,11 @@ Make a new useranswer.
 **return**
 ```javascript 
     {
-        "useranswer": {
-            "update_num": "1",
-            "unique_user": "Unique Id"
-        }
+      "useranswer": {
+        "unique_user": "222",
+        "created_dt": "2016-02-09T10:34:54.712",
+        "answer_num": 1,
+        "id": 14
+      }
     }
 ```

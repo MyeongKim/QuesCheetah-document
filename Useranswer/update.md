@@ -20,9 +20,11 @@ Update the answer_num of useranswer instance.
 **return**
 ```javascript 
     {
-        "useranswer": {
-            "answer_num": "1",
-            "unique_user": "Unique Id"
-        }
+      "useranswer": {
+        "answer_num": 3,
+        "created_dt": "2016-02-09T10:34:54.712",
+        "id": 14,
+        "unique_user": "222"
+      }
     }
 ```

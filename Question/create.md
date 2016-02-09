@@ -8,30 +8,28 @@ Create a new question with answers.
 **request**
 ```javascript
     {
-        "questions": [
-            1: {
+        "group_name": "", // empty string
+        "questions": {
+            "1": {
                 "question_title": "Your question title 1",
                 "question_text": "Your question text 1",
                 "start_dt": "", //optional
                 "end_dt": "", //optional
-                "is_editable": "True", // optional
-                "is_private": "True" // optional
+                "is_editable": false, // optional
+                "is_private": false // optional
             }
-        ],
-        "answers": [
-            1: {
+        },
+        "answers": {
+            "1": {
                 // First answer of the first question.
-                1: {
-                    "answer_num": "1",
+                "1": {
                     "answer_text": "Answer 1"
                 },
-                2: {
-                    "answer_num": "2",
+                "2": {
                     "answer_text": "Answer 2"
-                },
-                ...
-            },
-        ]
+                }
+            }
+        }
     }
 ```
 | Arguments | Value | Description |
@@ -51,29 +49,26 @@ Create a new question with answers.
 **return**
 ```javascript
     {
-        "question_title": "Your question title",
-        "question_text": "Your question text",
-        "start_dt": "",
-        "end_dt": "",
-        "is_editable": "True",
-        "is_private": "True",
-        "answers": [
-            1: {
-                "answer_num": "1",
-                "answer_text": "answer1"
-            },
-            2: {
-                "answer_num": "2",
-                "answer_text": "answer2"
-            },
-            3: {
-                "answer_num": "3",
-                "answer_text": "answer3"
-            },
-            4: {
-                "answer_num": "4",
-                "answer_text": "answer4"
+        "questions": {
+            "1": {
+                "question_title": "Your question title 1",
+                "question_text": "Your question text 1",
+                "start_dt": "2016-02-09T04:57:15.322",
+                "end_dt": "2016-02-09T04:57:15.322",
+                "is_editable": { false },
+                "is_private": { false }
             }
-        ]
+        },
+        "answers": {
+            "1": {
+                // First answer of the first question.
+                "1": {
+                    "answer_text": "Answer 1"
+                },
+                "2": {
+                    "answer_text": "Answer 2"
+                }
+            }
+        }
     }
 ```

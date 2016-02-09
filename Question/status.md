@@ -9,6 +9,8 @@ Change question state to private.
 **return**
 ```javascript 
     {
+        "result": "success",
+        "description": "Switched to the private question."
     }
 ```
 

@@ -72,24 +72,25 @@ You can update all the question data and answer data that is included from this 
 
 **return**
 ```javascript
-    {
+    {   
+        "group_id": "This Group id",
         "group_name": "This Group name",
         "questions": {
             "1": {
                 "question_title": "Your question title 1",
                 "question_text": "Your question text 1",
-                "start_dt": "", //optional
-                "end_dt": "", //optional
-                "is_editable": false, // optional
-                "is_private": false // optional
+                "start_dt": "2016-02-09T04:57:15.322",
+                "end_dt": "2016-02-09T04:57:15.322",
+                "is_editable": { false },
+                "is_private": { false }
             }
             "2": {
                 "question_title": "Your question title 2",
                 "question_text": "Your question text 2",
-                "start_dt": "", //optional
-                "end_dt": "", //optional
-                "is_editable": false, // optional
-                "is_private": false // optional
+                "start_dt": "2016-02-09T04:57:15.322",
+                "end_dt": "2016-02-09T04:57:15.322",
+                "is_editable": { false },
+                "is_private": { false }
             }
             ...
         },
