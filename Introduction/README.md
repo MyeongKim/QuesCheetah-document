@@ -44,8 +44,9 @@ The response will be always JSON object.
 
 
 ###**Errors**
-| 200 | OK - Everything went as planned. |
+| Number | Description |
 | -- | -- |
+| 200 | OK - Everything went as planned. |
 | 400 | Bad Request - Something in your header or request body was malformed. |
 | 401 | Unauthorized - Necessary credentials were either missing or invalid. |
 | 404	 | Not Found - The object you’re requesting doesn’t exist. |
