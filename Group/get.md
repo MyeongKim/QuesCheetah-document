@@ -13,6 +13,7 @@ Get this group, question, answer data.
         "group_name": "This Group name",
         "questions": {
             "1": {
+                "id": "question id",
                 "question_title": "Your question title 1",
                 "question_text": "Your question text 1",
                 "start_dt": "2016-02-09T04:57:15.322",
@@ -21,6 +22,7 @@ Get this group, question, answer data.
                 "is_private": { false }
             }
             "2": {
+                "id": "question id",
                 "question_title": "Your question title 2",
                 "question_text": "Your question text 2",
                 "start_dt": "2016-02-09T04:57:15.322",
@@ -35,9 +37,13 @@ Get this group, question, answer data.
             "1": {
                 // First answer of the first question.
                 "1": {
+                    "id": "answer id",
+                    "answer_count": "answer count",
                     "answer_text": "Answer 1"
                 },
                 "2": {
+                    "id": "answer id",
+                    "answer_count": "answer count",
                     "answer_text": "Answer 2"
                 },
                 ...
@@ -46,9 +52,13 @@ Get this group, question, answer data.
             "2": {
                 // First answer of the second question.
                 "1": {
+                    "id": "answer id",
+                    "answer_count": "answer count",
                     "answer_text": "Answer 1"
                 },
                 "2": {
+                    "id": "answer id",
+                    "answer_count": "answer count",
                     "answer_text": "Answer 2"
                 },
                 ...

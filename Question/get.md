@@ -11,6 +11,7 @@ Get question data. Return json includes question and answer data.
     {
         "questions": {
             "1": {
+                "id": "question id",
                 "question_title": "Your question title 1",
                 "question_text": "Your question text 1",
                 "start_dt": "2016-02-09T04:57:15.322",
@@ -23,9 +24,13 @@ Get question data. Return json includes question and answer data.
             "1": {
                 // First answer of the first question.
                 "1": {
+                    "id": "answer id",
+                    "answer_count": "answer count",
                     "answer_text": "Answer 1"
                 },
                 "2": {
+                    "id": "answer id",
+                    "answer_count": "answer count",
                     "answer_text": "Answer 2"
                 }
             }
@@ -44,16 +49,19 @@ Get only important data of this question.
 
 **return**
 ```javascript 
-    {
+    {   
+        "id": "question id",
         "question_text": "Your question text",
         "question_title": "Your question title",
         "answers": [
             {
+                "id": "answer id",
                 "answer_text": "My answer text for two",
                 "answer_count": 0, // How many users voted to this answer.
                 "answer_num": 2 
             },
             {
+                "id": "answer id",
                 "answer_text": "My answer text for one",
                 "answer_count": 0, // How many users voted to this answer.
                 "answer_num": 1
