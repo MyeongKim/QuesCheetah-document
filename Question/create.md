@@ -51,6 +51,7 @@ Create a new question with answers.
     {
         "questions": {
             "1": {
+                "question_id": "Your question id",
                 "question_title": "Your question title 1",
                 "question_text": "Your question text 1",
                 "start_dt": "2016-02-09T04:57:15.322",
