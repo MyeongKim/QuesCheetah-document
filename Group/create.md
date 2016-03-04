@@ -21,7 +21,7 @@ The answers within each question are created also.
                 "end_dt": "", //optional
                 "is_editable": false, // optional
                 "is_private": false // optional
-            }
+            },
             "2": {
                 "question_title": "Your question title 2",
                 "question_text": "Your question text 2",

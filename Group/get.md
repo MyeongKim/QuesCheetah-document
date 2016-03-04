@@ -20,7 +20,7 @@ Get this group, question, answer data.
                 "end_dt": "2016-02-09T04:57:15.322",
                 "is_editable": { false },
                 "is_private": { false }
-            }
+            },
             "2": {
                 "id": "question id",
                 "question_title": "Your question title 2",

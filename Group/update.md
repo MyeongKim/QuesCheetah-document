@@ -19,7 +19,7 @@ You can update all the question data and answer data that is included from this 
                 "end_dt": "", //optional
                 "is_editable": false, // optional
                 "is_private": false // optional
-            }
+            },
             "2": {
                 "question_title": "Your question title 2",
                 "question_text": "Your question text 2",
@@ -83,7 +83,7 @@ You can update all the question data and answer data that is included from this 
                 "end_dt": "2016-02-09T04:57:15.322",
                 "is_editable": { false },
                 "is_private": { false }
-            }
+            },
             "2": {
                 "question_title": "Your question title 2",
                 "question_text": "Your question text 2",
