@@ -10,7 +10,9 @@ Get all useranswers of this group
 ```javascript 
     {
       "useranswers": {
+        // First key number refers to question_num
         "1": {
+          // Second key number refers to answer_num
           "1": [
             {
               "id": 1,
